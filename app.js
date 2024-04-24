@@ -42,6 +42,8 @@ const randomBtn = document.querySelector('.random-btn');
 // set starting item
 let currentItem = 0;
 
+//53:30
+
 // load initial item
 window.addEventListener('DOMContentLoaded', function () {
   const item = reviews[currentItem];
