@@ -42,7 +42,12 @@ const randomBtn = document.querySelector('.random-btn');
 // set starting item
 let currentItem = 0;
 
-//53:30
+//load intial item
+window.addEventListener('DOMContentLoaded',function(){
+  console.log("shake and bake");
+});
+
+//55:02
 
 // load initial item
 window.addEventListener('DOMContentLoaded', function () {
