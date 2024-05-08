@@ -43,8 +43,11 @@ const randomBtn = document.querySelector('.random-btn');
 let currentItem = 0;
 
 //load intial item
-window.addEventListener('DOMContentLoaded',function(){});
+window.addEventListener("DOMContentLoaded", function() {
+  showPerson(currentItem);
+});
 
+//1:03:31
 
 // show person based on item
 function showPerson(person) {
@@ -54,3 +57,10 @@ function showPerson(person) {
   job.textContent = item.job;
   info.textContent = item.text;
 }
+
+// show the next person
+
+nextBtn.addEventListener('click', function() {
+  currentItem++;
+  showPerson(currentItem);
+});
