@@ -88,6 +88,6 @@ prevBtn.addEventListener("click", function() {
 //show ran
 randomBtn.addEventListener("click", function() {
   currentItem = Math.floor(Math.random() * reviews.length);
-  console.log showPerson(): void
+  console.log; showPerson();
   showPerson();
 });
